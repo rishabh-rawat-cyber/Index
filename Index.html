@@ -10,16 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="port.css">
     <title>Rishabh's Portfolio</title>
-    <script>
-     'user scripting'
-        alert("Welcome to my portfolio");
+    <script src="script.js">
         
-  function newpage(porthtml ) {
-       let click = document.getElementsByClassName("sign");
-       let newpage = open.port.html;
-               
-  }
     </script>
+    <style>
+          body{
+            scroll-behavior: smooth;
+          }
+    </style>
 
 </head>
 
@@ -30,21 +28,22 @@
             <div class="left"> Rishabh's Portfolio</div>
             <div class="right">
                 <ul>
-                    <a href="port.html" target="_blank">
+                    <a href="Index.html">
                         <li> Home</li>
                     </a>
-                    <a href="about.html" target="_blank">
+                    <a href="ABOUT PTF.html">
                         <li> About</li>
                     </a>
                     <li> Services</li>
                     <li> Projects</li>
-                    <li>Contact me</li>
-                    <li> Education</li>
+                   <a href="#contact"> <li>Contact me</li> </a>
+                   <a href="#education">
+                    <li> Education</li> </a>
 
                     <a href="rishabh resume.pdf" download="" class="resume-btn">
                         ! Download Resume
                     </a>
-                    <a href="log.html" class="sign"> Log In</a>
+                    <a href="LOG IN PTF.html" class="sign"> Log In</a>
                 </ul>
             </div>
         </nav>
@@ -209,7 +208,7 @@
     <!-- Eduaction & Certificate-->
     <div class="bottom-section">
 
-        <div class="info-section">
+        <div class="info-section" id="education">
             <h3> Education</h3>
             <div class="info-card">
                 <div>
@@ -246,7 +245,7 @@
 
     </div>
 
-    <div class="Contact-card">
+    <div class="Contact-card" id="contact">
         <i class="fa-sharp fa-solid fa-phone-arrow-right"></i>
         <h3> Contact Me</h3>
         <div class="call">
@@ -260,6 +259,11 @@
         </div>
 
     </div>
+
+
+              
+
+
 
 
 </body>
